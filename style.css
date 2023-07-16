@@ -1,0 +1,302 @@
+*{
+    margin: 0px;
+    padding: 0px ;
+    box-sizing: border-box;
+
+}
+
+/* start navbar*/
+nav{
+    z-index: 999;
+    height: 75px;
+    
+    /* margin-bottom: -10%; */
+
+} 
+
+
+.navbar .container .collapse ul li{
+    font-size: 18px;
+    border-radius: 8px;
+}
+.navbar .container .collapse ul li:hover{
+    background-color: #ef8b8b;
+    margin: 0px 5px 0px 5px;
+    transform:scale(1.1) ;
+    transition: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+
+}
+/* end navbar*/
+
+/* start header */
+.head {
+    width: 100%;
+    background-color: #f2efef;
+    margin-top: 5%;
+
+}
+.head header{
+    width: 100%;
+    background-color: #f2efef;
+
+
+}
+.head header .row {
+    width: 100%;
+    overflow: hidden;
+
+}
+.head header div .text{
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.head header div .text h1{
+    font-weight: bold;
+    text-transform:uppercase ;
+}
+.head header div .text p{
+    margin:15px 0px 15px 0px ;
+}
+header div .text button{
+    background-color: red;
+    border: none;
+    width: 120px;
+    padding: 7px;
+    border-radius: 8px;
+    
+}
+.head header div .text button a{
+    color: white;
+    text-decoration: none;
+
+}
+header div .text button:hover{
+    transform: scale(1.1);
+    transition: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+
+.head header div .img img{
+    margin-left: 15%;
+
+}
+/* end header */
+
+
+/* Start popular */
+.popular .text p{
+    width: 50%;
+    transform: translate(50% ,0%);
+
+}
+
+
+
+.popular .sec .sec1 div {
+    width:auto;
+
+}
+.popular .sec .sec1 div .hover-box {
+    width: auto;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+
+}
+.popular .sec .sec1 div .hover-box img{
+    position: relative;
+    border-bottom: 3px solid red;
+    overflow: hidden;
+
+}
+.popular .sec .sec1 div .hover-box i{
+    width: 50px;
+    position: absolute;
+    transform: translate(-30%,0%);
+
+}
+.popular .sec .sec1 div .hover-box h3{
+    width: 365px;
+    height: 50px;
+    padding-top: 5px;
+    position: absolute;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    text-align: center;
+    transform: translate(0%,0%);
+
+}
+.popular .sec .sec1 div .hover-box:hover i{
+    transform: translate(-140%,110%);
+    transition: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+
+
+}
+.popular .sec .sec1 div .hover-box:hover h3{
+    transform: translate(0%,-85%);
+    transition: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+
+}
+/* End popular */
+
+/* start watch1 */
+.watch1{
+    width: 100%;
+    margin-top: 5%;
+}
+
+.watch1 div .text{
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.watch1 div .text h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-transform:uppercase ;
+}
+.watch1 div .text p{
+    font-size: 15px;
+    margin:15px 0px 15px 0px ;
+}
+.watch1 div .text button{
+    background-color: red;
+    border: none;
+    width: 130px;
+    padding: 8px;
+    border-radius: 8px;
+    
+}
+
+.watch1 div .text button a{
+    color: white;
+    text-decoration: none;
+
+}
+.watch1 div .text button:hover{
+    transform: scale(1.1);
+    transition: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    box-shadow: 1px 0px  15px 1px #000000 ;
+}
+/* end watch1 */
+
+
+/* start watch2 */
+.watch2{
+    width: 100%;
+    margin-top: 5%;
+}
+
+.watch2 div .text{
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.watch2 div .text h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-transform:uppercase ;
+}
+.watch2 div .text p{
+    font-size: 15px;
+    margin:15px 0px 15px 0px ;
+}
+.watch2 div .text button{
+    background-color: red;
+    border: none;
+    width: 130px;
+    padding: 8px;
+    border-radius: 8px;
+    
+}
+.watch2 div .text button:hover{
+    transform: scale(1.1);
+    transition: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+.watch2 div .text button a{
+    color: white;
+    text-decoration: none;
+
+}
+/* end watch2 */
+
+/* Start read */
+.read{
+    width: auto;
+}
+.read div img{
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+.read div .row{
+    width: auto;
+    position: absolute;
+    transform: translate(12%,-100%);
+    color: white;
+
+}
+.read div .row .cube{
+    width: 350px;
+
+}
+.read div .row .cube i{
+    font-size: 35px;
+}
+
+.read  div .row .unlock{
+    width: 350px;
+
+}
+.read  div .row .unlock i{
+    font-size: 35px;
+}
+
+.read  div .row .arrows{
+    width: 350px;
+
+}
+.read  div .row .arrows i{
+    font-size: 35px;
+}
+
+   /* End read*/
+
+   /* start */
+.hr_product{
+    width: 100px;
+    height: 5px;
+    background-color:red; 
+    margin-left: 42%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.hr_popular{
+    width: 100px;
+    height: 5px;
+    background-color:red; 
+    margin-left: 40%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.hr_watch{
+    width: 100px;
+    height: 5px;
+    background-color:red; 
+    margin-left: 50%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+/* End */
