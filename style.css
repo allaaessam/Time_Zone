@@ -9,9 +9,6 @@
 nav{
     z-index: 999;
     height: 75px;
-    
-    /* margin-bottom: -10%; */
-
 } 
 
 
@@ -94,8 +91,6 @@ header div .text button:hover{
 
 }
 
-
-
 .popular .sec .sec1 div {
     width:auto;
 
@@ -119,15 +114,24 @@ header div .text button:hover{
     transform: translate(-30%,0%);
 
 }
-.popular .sec .sec1 div .hover-box h3{
+.popular .sec .sec1 div .hover-box button{
     width: 365px;
-    height: 50px;
-    padding-top: 5px;
+    height: 80px;
     position: absolute;
     background-color: rgb(255, 0, 0);
     color: white;
     text-align: center;
-    transform: translate(0%,0%);
+    transform: translate(-100%,480%);
+    border: none;
+    padding-bottom: 40px;
+
+}
+.popular .sec .sec1 div .hover-box button a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
 
 }
 .popular .sec .sec1 div .hover-box:hover i{
@@ -138,8 +142,9 @@ header div .text button:hover{
 
 
 }
-.popular .sec .sec1 div .hover-box:hover h3{
-    transform: translate(0%,-85%);
+
+.popular .sec .sec1 div .hover-box:hover button{
+    transform: translate(-100%,400%);
     transition: all;
     transition-duration: 0.5s;
     transition-timing-function: ease;
